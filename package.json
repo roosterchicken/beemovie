@@ -1,0 +1,28 @@
+{
+  "name": "@rooster-chicken/beemovie",
+  "version": "0.0.1",
+  "description": "beemovie in typescript.",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roosterchicken/beemovie.git"
+  },
+  "keywords": [
+    "typescript",
+    "beemovie"
+  ],
+  "author": "roosterchicken",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roosterchicken/beemovie/issues"
+  },
+  "homepage": "https://github.com/roosterchicken/beemovie#readme",
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
