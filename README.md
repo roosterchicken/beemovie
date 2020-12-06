@@ -1,4 +1,4 @@
-# beemovie
+# beemovie v0.1.0
 Bee Movie module written in typescript
 
 ## Installation
@@ -25,6 +25,8 @@ npm run build
 
 ### JavaScript
 
+#### beeMovie()
+
 ```javascript
 const beemovie = require("@rooster-chicken/beemovie");
 // Prints out 1 sentence
@@ -33,7 +35,25 @@ console.log(beemovie.beeMovie(1));
 console.log(beemovie.beeMovie(2));
 ```
 
+#### beeMovieScript()
+
+```javascript
+const beemovie = require("@rooster-chicken/beemovie");
+// Prints out the entire Bee Movie Script
+console.log(beemovie.beeMovieScript());
+```
+
+#### beeMovieWord()
+
+```javascript
+const beemovie = require("@rooster-chicken/beemovie");
+// Prints out a word from the Bee Movie
+console.log(beeMovieWord(1));
+```
+
 ### TypeScript
+
+#### beeMovie()
 
 ```typescript
 import { beeMovie } from "@rooster-chicken/beemovie";
@@ -41,4 +61,20 @@ import { beeMovie } from "@rooster-chicken/beemovie";
 console.log(beeMovie(1));
 // Prints out 2 sentences
 console.log(beeMovie(2));
+```
+
+#### beeMovieScript()
+
+```typescript
+import {  beeMovieScript } from "@rooster-chicken/beemovie";
+// Prints out the entire Bee Movie Script
+console.log(beeMovieScript());
+```
+
+#### beeMovieWord()
+
+```typescript
+import { beeMovieWord } from "@rooster-chicken/beemovie";
+// Prints out a word from the Bee Movie
+console.log(beeMovieWord(1));
 ```
