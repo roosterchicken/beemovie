@@ -6,7 +6,7 @@ Bee Movie module written in typescript
 ### npm
 
 ```sh
-npm install @rooster-chicken/beemovie
+npm install @rooster-chicken/beemovie --save
 ```
 
 ### yarn
