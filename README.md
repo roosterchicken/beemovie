@@ -1,4 +1,4 @@
-# beemovie v0.1.5
+# beemovie v0.1.6
 Bee Movie module written in typescript
 
 ## Installation
