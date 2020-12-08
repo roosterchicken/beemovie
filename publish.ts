@@ -39,7 +39,7 @@ if (process.argv.slice(2)[0] == "--help") {
     console.log("./publish.ts v0.0.1  publishes to NPM and GitHub with version number");
     process.exit(0);
 } else if (process.argv.slice(2)[0] == "--version") {
-    console.log("BeeMovie publish.ts v0.0.1");
+    console.log("BeeMovie publish.ts v0.1.0");
     process.exit(0);
 }
 // Checks if arguments are right.

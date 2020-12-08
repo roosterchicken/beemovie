@@ -1,6 +1,6 @@
 {
     "name": "@rooster-chicken/beemovie",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "beemovie in typescript.",
     "main": "dist/main.js",
     "types": "dist/main.d.ts",
