@@ -1,12 +1,12 @@
 {
     "name": "@rooster-chicken/beemovie",
-    "version": "0.1.3-1",
+    "version": "0.1.3-2",
     "description": "beemovie in typescript.",
     "main": "dist/main.js",
     "types": "dist/main.d.ts",
     "scripts": {
-        "test": "tsc && ts-mocha -R mocha-silent-reporter tests/test.ts",
-        "build": "tsc"
+        "test": "rm -rf dist/ && tsc && ts-mocha -R mocha-silent-reporter tests/test.ts",
+        "build": "rm -rf dist/ && tsc"
     },
     "repository": {
         "type": "git",
