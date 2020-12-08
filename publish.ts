@@ -111,16 +111,17 @@ console.log('git commit,-m "' + commit + '"');
 runCommand('git commit -m "' + commit + '"');
 done = false;
 while (done == false) {
-    const ran: any = runCommand("git push")
+    const ran: any = runCommand("git push");
+    runCommand("git push --tags");
     if (ran == false) {
-        console.log("Try the push again.")
+        console.log("Try the push again.");
     } else {
         done = true;
     }
 }
 // Push to NPM
 console.log("Pushing to npm");
-console.log("Building dist/")
+console.log("Building dist/");
 runCommand("yarn run build");
 console.log("Logging into NPM");
 runCommand("yarn login");
