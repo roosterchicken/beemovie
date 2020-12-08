@@ -1,1 +1,4 @@
 lib/
+publish.ts
+yarn.lock
+tests/
