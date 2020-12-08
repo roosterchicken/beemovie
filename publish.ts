@@ -120,6 +120,10 @@ while (done == false) {
 }
 // Push to NPM
 console.log("Pushing to npm");
+console.log("Building dist/")
+runCommand("yarn run build");
+console.log("Logging into NPM");
 runCommand("yarn login");
+console.log("Publising @rooster-chicken/beemovie " + version);
 runCommand("yarn publish --new-version " + version.replace("v" ,""));
 console.log("BeeMovie " + version + " has been pushed to GitHub and published!");
