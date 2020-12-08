@@ -49,6 +49,7 @@ export function beeMovieVersion() {
 }
 /**
  * @method: Generates paragraph(s) between 3-5 sentences.
+ * @param: Number of Paragraphs you wanna generate
  * @return: 1 Paragraph by default, can set more via paramater.
  */
 export function beeMovieParagraph(num: number = 1) {
