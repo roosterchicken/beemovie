@@ -1,6 +1,6 @@
 {
     "name": "@rooster-chicken/beemovie",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "beemovie in typescript.",
     "main": "dist/main.js",
     "types": "dist/main.d.ts",
@@ -29,7 +29,6 @@
         "@types/node": "^14.14.10",
         "@types/readline-sync": "^1.4.3",
         "chai": "^4.2.0",
-        "child-process-promise": "^2.2.1",
         "mocha": "^8.2.1",
         "mocha-silent-reporter": "^1.0.0",
         "readline-sync": "^1.4.10",
