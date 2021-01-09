@@ -1,7 +1,7 @@
 {
-    "name": "@rooster-chicken/beemovie",
-    "version": "0.2.4",
-    "description": "beemovie in typescript.",
+    "name": "beemovie",
+    "version": "1.0.0",
+    "description": "Bee Movie in TypeScript.",
     "main": "dist/main.js",
     "types": "dist/main.d.ts",
     "scripts": {
@@ -14,14 +14,21 @@
     },
     "keywords": [
         "typescript",
-        "beemovie"
+        "beemovie",
+        "Bee Movie",
+        "text",
+        "Barry Benson",
+        "generator",
+        "lorem",
+        "ipsum",
+        "lorem ipsum"
     ],
     "author": "roosterchicken",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/roosterchicken/beemovie/issues"
     },
-    "homepage": "https://github.com/roosterchicken/beemovie#readme",
+    "homepage": "https://github.com/roosterchicken/beemovie",
     "devDependencies": {
         "@types/chai": "^4.2.14",
         "@types/jest": "^26.0.16",

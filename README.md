@@ -1,100 +1,128 @@
-# beemovie v0.2.4
-Bee Movie module written in typescript
+# beemovie v1.0.0
+A Bee Movie generator as a Node.js library written in TypeScript.
 
 ## Installation
 
 ### npm
 
 ```sh
-npm install @rooster-chicken/beemovie --save
+npm install beemovie --save
 ```
 
 ### yarn
 
 ```sh
-yarn add @rooster-chicken/beemovie
+yarn add beemovie
 ```
 
 ## Building
-
+Clone the repo with this command:
+```sh
+git clone https://github.com/roosterchicken/beemovie
+```
+and cd into the directory and run this command to build the `.js` files into the dist folder.
 ```sh
 npm run build
 ```
 
+## Functions
+### Sentence()
+The Sentence() function generates a sentence by picking a sentence randomly from the Bee Movie script.
+### Script()
+The Script() function prints out the entire Bee Movie script.
+### Word()
+The Word() function generates a random word from the Bee Movie script.
+### Paragraph()
+The Paragraph() function generates a random sentence by generating 3-5 sentences either with a period or a question mark.
+### Version()
+The Version() function prints out the version of the library.
 ## Usage
 
 ### JavaScript
 
-#### beeMovie()
+#### Sentence()
 
 ```javascript
-const beemovie = require("@rooster-chicken/beemovie");
+const beemovie = require("beemovie");
 // Prints out 1 sentence
-console.log(beemovie.beeMovie(1));
+console.log(beemovie.Sentence(1));
 // Prints out 2 sentences
-console.log(beemovie.beeMovie(2));
+console.log(beemovie.Sentence(2));
 ```
 
-#### beeMovieScript()
+#### Script()
 
 ```javascript
-const beemovie = require("@rooster-chicken/beemovie");
+const beemovie = require("beemovie");
 // Prints out the entire Bee Movie Script
-console.log(beemovie.beeMovieScript());
+console.log(beemovie.Script());
 ```
 
-#### beeMovieWord()
+#### Word()
 
 ```javascript
-const beemovie = require("@rooster-chicken/beemovie");
+const beemovie = require("beemovie");
 // Prints out a word from the Bee Movie
-console.log(beeMovieWord(1));
+console.log(beemovie.Word(1));
 ```
 
-#### beeMovieParagraph()
+#### Paragraph()
 
 ```javascript
-const beemovie = require("@rooster-chicken/beemovie");
+const beemovie = require("beemovie");
 // Prints out a 3-5 sentence paragraph
-console.log(beemovie.beeMovieParagraph());
+console.log(beemovie.Paragraph());
 // Prints out 2 3-5 sentence paragraphs
-console.log(beemovie.beeMovieParagraph(2));
+console.log(beemovie.Paragraph(2));
 ```
-
+#### Version()
+```javascript
+const beemovie = require("beemovie");
+// Saves the output of the beemovie.Version() function into the variable barryversion
+const barryversion = beemovie.Version();
+console.log(`You are running beemovie v${barryversion}`);
+```
 ### TypeScript
 
-#### beeMovie()
+#### Sentence()
 
 ```typescript
-import { beeMovie } from "@rooster-chicken/beemovie";
+import beemovie from "beemovie";
 // Prints out 1 sentence
-console.log(beeMovie(1));
+console.log(beemovie.Sentence(1));
 // Prints out 2 sentences
-console.log(beeMovie(2));
+console.log(beemovie.Sentence(2));
 ```
 
-#### beeMovieScript()
+#### Script()
 
 ```typescript
-import {  beeMovieScript } from "@rooster-chicken/beemovie";
+import beemovie from "beemovie";
 // Prints out the entire Bee Movie Script
-console.log(beeMovieScript());
+console.log(beemovie.Script());
 ```
 
-#### beeMovieWord()
+#### Word()
 
 ```typescript
-import { beeMovieWord } from "@rooster-chicken/beemovie";
+import beemovie from "beemovie";
 // Prints out a word from the Bee Movie
-console.log(beeMovieWord(1));
+console.log(beemovie.Word(1));
 ```
 
-#### beeMovieParagraph()
+#### Paragraph()
 
 ```typescript
-import { beeMovieParagraph } from "@rooster-chicken/beemovie"
+import beemovie from "beemovie";
 // Prints out a 3-5 sentence paragraph
-console.log(beeMovieParagraph());
+console.log(beemovie.Paragraph());
 // Prints out 2 3-5 sentence paragraphs
-console.log(beeMovieParagraph(2));
+console.log(beemovie.Paragraph(2));
+```
+#### Version()
+```typescript
+import beemovie from "beemovie";
+// Saves the output of the beemovie.Version() function into the variable barryversion
+const barryversion = beemovie.Version();
+console.log(`You are running beemovie v${barryversion}`);
 ```

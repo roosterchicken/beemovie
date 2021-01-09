@@ -67,7 +67,8 @@
     "skipLibCheck": true,                     /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
     "outDir": "./dist",
-    "declaration": true
+    "declaration": true,
+    "resolveJsonModule": true
   },
-  "exclude": ["tests/","publish.ts"]
+  "exclude": ["tests/", "publish.ts", "dist"]
 }
