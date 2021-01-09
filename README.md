@@ -1,3 +1,5 @@
+# @rooster-chicken/beemovie and the v0.2.x branch is deprecated. Please switch to the package [beemovie](https://www.npmjs.com/package/beemovie).
+
 # beemovie v0.2.4
 Bee Movie module written in typescript
 
