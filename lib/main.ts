@@ -1,7 +1,7 @@
 let globalarray: any;
 let globalarray2: any;
 //let globalbool: boolean = true;
-let version: string = "1.0.0";
+let version: string = "1.0.1";
 import barry from "./beemovie.json";
 const beemovie = barry.script;
 
