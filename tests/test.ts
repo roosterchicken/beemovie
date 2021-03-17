@@ -1,23 +1,21 @@
-import barry from ".."
+import beemovie from '../dist/main'
 import { expect } from "chai"
 describe('beeMovie', function(){
     it("barry.Sentence() should execute without any errors", () => {
-        expect(barry.Sentence(1)).to.be.a('string');
-        expect(barry.Sentence(2)).to.be.a('string');
+        expect(beemovie.Sentence(1)).to.be.a('string');
+        expect(beemovie.Sentence(2)).to.be.a('string');
     });
     it("barry.Script() should execute without any errors", () => {
-        expect(barry.Script()).to.be.a('string');
+        expect(beemovie.Script()).to.be.a('string');
     });
     it("barry.Version() should execute without any errors", () => {
-        expect(barry.Version()).to.be.a('string');
-        //console.log("v"+beeMovieVersion());
+        expect(beemovie.Version()).to.be.a('string');
     });
     it("barry.Word() should execute without any errors", () => {
-        expect(barry.Word(1)).to.be.a('string');
-        //console.log(beeMovieWord(69));
+        expect(beemovie.Word(1)).to.be.a('string');
     });
     it("barry.Paragraph() should execute without any errors", () => {
-        expect(barry.Paragraph(1)).to.be.a('string');
-        expect(barry.Paragraph(2)).to.be.a('string');
+        expect(beemovie.Paragraph(1)).to.be.a('string');
+        expect(beemovie.Paragraph(2)).to.be.a('string');
     });
 });
