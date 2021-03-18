@@ -1,12 +1,17 @@
 {
     "name": "beemovie",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Bee Movie in TypeScript.",
-    "main": "dist/main.js",
-    "types": "dist/main.d.ts",
+    "main": "./dist/cjs/main.js",
+    "module": "./dist/esm/main.js",
+    "types": "./dist/cjs/main.d.ts",
+    "files": [
+        "dist/"
+    ],
     "scripts": {
         "test": "rm -rf dist/ && tsc && ts-mocha -R mocha-silent-reporter tests/test.ts",
-        "build": "rm -rf dist/ && tsc"
+        "build": "rm -rf dist/ && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+        "prepublish": "yarn run build"
     },
     "repository": {
         "type": "git",

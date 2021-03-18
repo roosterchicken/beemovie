@@ -2,4 +2,5 @@ lib/
 publish.ts
 yarn.lock
 tests/
+node_modules/
 .DS_Store
