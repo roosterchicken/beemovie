@@ -1,4 +1,4 @@
-# beemovie v1.0.1
+# beemovie v1.0.3
 A Bee Movie generator as a Node.js library written in TypeScript.
 
 ## Installation

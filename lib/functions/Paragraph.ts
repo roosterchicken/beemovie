@@ -35,7 +35,7 @@ export function Paragraph(num: number = 1) {
 			} else if (pickArray == "question") {
 				global.globalarray = array2RemoveOnlyPeriods;
 			}
-			const sentence = multiplySentences(1, true);
+			const sentence = multiplySentences(1);
 			//console.log(sentence);
 			notglobalparagraph = notglobalparagraph + sentence + " ";
 			//console.log(globalparagraph);
