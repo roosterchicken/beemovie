@@ -1,6 +1,6 @@
 {
     "name": "beemovie",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Bee Movie in TypeScript.",
     "main": "./dist/cjs/main.js",
     "module": "./dist/esm/main.js",

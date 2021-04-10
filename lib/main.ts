@@ -7,7 +7,7 @@ import {Version} from './functions/Version'
 export class global {
 	public static globalarray: any;
 	public static globalarray2: any;
-	public static version: string = "1.0.3";
+	public static version: string = "1.0.4";
 }
 
 export {
